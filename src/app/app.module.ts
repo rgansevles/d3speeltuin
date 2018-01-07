@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { D3compComponent } from './d3comp/d3comp.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    D3compComponent
   ],
   imports: [
     BrowserModule

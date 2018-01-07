@@ -14,16 +14,15 @@ export class D3compComponent implements OnInit {
 
   ngOnInit() {
 
-    const svg3 = d3.select(this.svg.nativeElement).append("svg")
-      .attr("width", 960)
-      .attr("height", 500)
-      .append("text")
-      .text("Edit the code below to change me!")
-      .attr("y", 89)
-      .attr("x", 120)
-
-      .attr("font-size", 36)
-      .attr("font-family", "monospace");
+    const svg3 = d3.select(this.svg.nativeElement).append('svg')
+      .attr('width', 960)
+      .attr('height', 500)
+      .append('rect')
+      .attr('x', 20)
+      .attr('y', 100)
+      .attr('width', 500)
+      .attr('height', 2500)
+    ;
   }
 
 }
